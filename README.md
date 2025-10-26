@@ -1,15 +1,27 @@
-# Express.js RESTful API Assignment
+# Express.js RESTful API Assignment - Overview
 
-This assignment focuses on building a RESTful API using Express.js, implementing proper routing, middleware, and error handling.
+This project is a RESTful API built with Express.js, implementing standard CRUD operations, middleware for logging, authentication, and validation, as well as error handling and advanced features like filtering, pagination, and search.
 
-## Assignment Overview
+## Prerequisites: 
 
-You will:
-1. Set up an Express.js server
-2. Create RESTful API routes for a product resource
-3. Implement custom middleware for logging, authentication, and validation
-4. Add comprehensive error handling
-5. Develop advanced features like filtering, pagination, and search
+Node.js v18 or higher
+
+npm (comes with Node)
+
+Postman or curl for testing the API
+
+### Installation
+
+1. git clone <your-repo-url>
+2. cd <project folder>
+3. Install dependeies:
+```
+npm install
+```
+4. Run the server:
+   ```
+   npm start
+   ```
 
 ## Getting Started
 
@@ -24,18 +36,6 @@ You will:
    npm start
    ```
 
-## Files Included
-
-- `Week2-Assignment.md`: Detailed assignment instructions
-- `server.js`: Starter Express.js server file
-- `.env.example`: Example environment variables file
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Postman, Insomnia, or curl for API testing
-
 ## API Endpoints
 
 The API will have the following endpoints:
@@ -46,17 +46,3 @@ The API will have the following endpoints:
 - `PUT /api/products/:id`: Update a product
 - `DELETE /api/products/:id`: Delete a product
 
-## Submission
-
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete all the required API endpoints
-2. Implement the middleware and error handling
-3. Document your API in the README.md
-4. Include examples of requests and responses
-
-## Resources
-
-- [Express.js Documentation](https://expressjs.com/)
-- [RESTful API Design Best Practices](https://restfulapi.net/)
-- [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) 
